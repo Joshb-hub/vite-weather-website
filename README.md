@@ -5,7 +5,7 @@ A simple and elegant weather website built using **HTML**, **Tailwind CSS**, and
 ## Weather Website
 
 Check out my [Weather Website](https://joshb-hub.github.io/vite-weather-website/) deployed on GitHub Pages!
-Apologies if the fecthing does not work as the API KEY has a limit,when the limit exceeds it stops working.
+- Apologies if the fecthing does not work as the API KEY has a limit,when the limit exceeds it stops working.
 
 ## Screenshots
 ![Main page](./screenshots/main-image.png)
