@@ -2,6 +2,11 @@
 
 A simple and elegant weather website built using **HTML**, **Tailwind CSS**, and **JavaScript**, powered by **Vite** for environment variable support. It fetches live weather data from a public API using a securely stored API key.
 
+## Weather Website
+
+Check out my [Weather Website](https://joshb-hub.github.io/vite-weather-website/) deployed on GitHub Pages!
+
+
 ## Screenshots
 ![Main page](./screenshots/main-image.png)
 ![DELHI example](./screenshots/delhi.png)
