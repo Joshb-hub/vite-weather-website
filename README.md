@@ -102,8 +102,6 @@ npm run dev
 Then open your browser and go to: [http://localhost:5173](http://localhost:5173)
 
 ## 📁 Project Structure
-
-```
 WEATHER-WEBSITE/
 ├── .vscode/
 │   └── settings.json        # VS Code workspace settings
@@ -133,7 +131,6 @@ WEATHER-WEBSITE/
 ├── LICENSE                # Licensing information
 ├── README.md              # Project documentation (this file)
 └── vite.config.js         # Vite configuration file
-```
 
 ## 🔒 Notes on API Key
 
