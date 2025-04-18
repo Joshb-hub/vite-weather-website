@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vite Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body class="bg-blue-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white shadow-lg rounded-lg p-6 w-96 text-center">
+      <h1 class="text-2xl font-bold mb-4">Weather App</h1>
+      <input id="cityInput" type="text" placeholder="Enter city" class="border p-2 w-full mb-4 rounded" />
+      <button id="getWeatherBtn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Get Weather</button>
+      <div id="weatherDisplay" class="mt-6 hidden">
+        <img id="weatherIcon" class="mx-auto mb-2" />
+        <h2 id="temperature" class="text-xl font-semibold"></h2>
+        <p id="condition" class="text-gray-700"></p>
+      </div>
+    </div>
+  </body>
+</html>
