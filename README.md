@@ -107,18 +107,32 @@ Then open your browser and go to: [http://localhost:5173](http://localhost:5173)
 WEATHER-WEBSITE/
 ├── .vscode/
 │   └── settings.json        # VS Code workspace settings
+├── assets/                # Root level assets
+│   └── index-BnEWyJWz.js
+├── screenshots/           # Application screenshots
+│   ├── delhi.png
+│   ├── hyderabad.png
+│   ├── kolkata.png
+│   └── main-image.png
 ├── weather/
+│   ├── assets/            # Assets within the 'weather' directory
+│   │   └── index-nsXQ-TUZ.js
+│   ├── dist/              # Production build output
+│   │   ├── assets/        # Assets in the production build
+│   │   │   └── index-BnEWyJWz.js
+│   │   └── index.html
 │   ├── node_modules/      # npm dependencies (not typically committed)
 │   ├── public/            # Static assets (HTML, images, etc.)
 │   └── src/               # Main source code
 │       └── main.js          # Entry point of the JavaScript application
 ├── .env                   # Environment variables (add to .gitignore)
 ├── .gitignore             # Specifies files to ignore in Git
-├── index.html             # Main HTML file
+├── index.html             # Main HTML file (development)
 ├── package-lock.json      # Exact dependency versions
 ├── package.json           # Project metadata and dependencies
 ├── LICENSE                # Licensing information
-└── README.md              # Project documentation (this file)
+├── README.md              # Project documentation (this file)
+└── vite.config.js         # Vite configuration file
 ```
 
 ## 🔒 Notes on API Key
